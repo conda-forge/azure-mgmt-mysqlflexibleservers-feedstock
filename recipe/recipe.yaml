@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-mysqlflexibleservers
-  version: 1.0.0b3
+  version: "1.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_mysqlflexibleservers-${{ version }}.tar.gz
-  sha256: 611fd88f3db1e0a8477a1633fe94c461d17213e215170eb53c1eea9b823bd4c3
+  sha256: d077a656888a5c5977f479a244a64ac4a1d351002e99a7eddaf6a49a82192e56
 
 build:
   number: 0
